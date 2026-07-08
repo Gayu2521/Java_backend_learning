@@ -1,0 +1,26 @@
+Steps to Environment Setup
+1. Download the JDK InstallerGo to the Oracle Java Downloads page.
+2. Choose a JDK version (e.g., JDK 21 or JDK 23 which are standard long-term support versions).
+3. Select your operating system (Windows, macOS, or Linux).
+4. Download the appropriate file:
+    Windows: Download the .exe installer.
+    macOS: Download the .dmg installer.
+    Linux: Download the .tar.gz or .deb package.
+5. Install the JDKOn WindowsLocate the downloaded .exe file in your Downloads
+ folder and double-click it to run.
+6. Click Next on the setup wizard.
+7.Keep the default installation directory (usually C:\Program Files\Java\jdk-[version]) and click Next.
+8. Click Install and wait for the process to complete, then click close.
+
+Configure Environment Variables
+
+On Windows
+1. Press the Windows key, type Environment Variables, and select 
+Edit the system environment variables.
+2. Click the Environment Variables button at the bottom.
+3.Under System variables, click New.
+4. Set the Variable name to JAVA_HOME.
+5.Set the Variable value to your JDK installation path (e.g., C:\Program Files\Java\jdk-[version]) and click OK.
+6. Scroll down in the System variables list to find the Path variable, select it, and 
+click Edit.
+7. GClick New, paste the path to your bin folder (e.g., C:\Program Files\Java\jdk-[version]\bin), and click OK on all open windows.
